@@ -1,0 +1,15 @@
+{
+    "name": "Plugin Example 1",
+    "url": "https://example.com/plugin1",
+    "description": "Enhances combat mechanics.",
+    "paid": true,
+    "categories": ["Combat", "Interface"],
+    "compatibility": ["MZ", "MV"],
+    "language": ["japanese", "english"],
+    "version": "1.0.0",
+    "author": "John Doe",
+    "authorUrl": "https://example.com/johndoe",
+    "license": "MIT",
+    "tags": ["combat", "mechanics", "interface"],
+    "dependencies": ["plugin-2"]
+}

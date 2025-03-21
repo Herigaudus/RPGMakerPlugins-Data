@@ -1,0 +1,15 @@
+{
+    "name": "Plugin Example 2",
+    "url": "https://example.com/plugin2",
+    "description": "Adds new character customization options.",
+    "paid": false,
+    "categories": ["Customization", "Interface"],
+    "compatibility": ["MZ"],
+    "language": ["english"],
+    "version": "1.0.0",
+    "author": "Jane Smith",
+    "authorUrl": "https://example.com/janesmith",
+    "license": "GPL-3.0",
+    "tags": ["customization", "interface"],
+    "dependencies": []
+}
