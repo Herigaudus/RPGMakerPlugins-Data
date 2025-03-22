@@ -13,18 +13,38 @@
 
 ## Screenshots
 
-*Note: Screenshots are available on the official plugin website.*
+![Character Customization](https://via.placeholder.com/800x400?text=Character+Customization)
+
+![Interface Options](https://via.placeholder.com/800x400?text=Interface+Options)
+
+![Custom Characters](https://via.placeholder.com/800x400?text=Custom+Characters)
 
 ## Installation Instructions
 
-1. **Download**: Get the plugin file from [here](https://example.com/plugin2).
-2. **Installation**: Place the file in your project's `plugins` folder.
+1. **Download**: Get the plugin file from the official website.
+2. **Installation**: Place the file in the `js/plugins` folder of your RPG Maker project.
 3. **Activation**: Enable the plugin via the RPG Maker plugin manager.
 4. **Configuration**: Customize the settings as needed in the plugin manager.
 
 ## Plugin Commands / Script Calls
 
-*Note: Detailed plugin commands and script calls documentation is available in the plugin file.*
+Here is an example of a script call to use a plugin feature:
+
+```javascript
+// Example: Apply custom appearance to a character
+const characterId = 2; // Character ID
+const appearanceId = 3; // Custom appearance ID
+
+const character = $gameMap.event(characterId);
+if (character) {
+    character.setCustomAppearance(appearanceId);
+    console.log(`Character ID ${characterId} now has appearance ID ${appearanceId}.`);
+} else {
+    console.error("Character not found!");
+}
+```
+
+This example demonstrates how to apply a custom appearance to a character. Make sure the IDs match those in your project.
 
 ## Demo
 
@@ -34,8 +54,8 @@ A project demo is available, showcasing all the features of **Plugin Example 2**
 
 ## Version History
 
-- **v0.9.0** (2024-12-01): Beta release. [Download](https://example.com/plugin2/v0.9.0)
-- **v1.0.0** (2025-01-15): First stable release. [Download](https://example.com/plugin2/v1.0.0)
+- **v0.9.0** (12/01/2024): [Download](https://example.com/plugin2/v0.9.0)
+- **v1.0.0** (01/15/2025): [Download](https://example.com/plugin2/v1.0.0)
 
 ## License
 
@@ -46,10 +66,8 @@ A project demo is available, showcasing all the features of **Plugin Example 2**
   - Adult content allowed: No
   - Free copy required: No
 
-## Support
+## Notes
 
-For assistance, please visit the [support page](https://example.com/plugin2/support).
+
 
 ---
-
-*This guide was generated to provide additional information about the usage and features of **Plugin Example 2**. For specific technical details, please refer to the JSON file provided with the plugin.*

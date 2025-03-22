@@ -1,17 +1,8 @@
 {
     "name": "Plugin Example 1",
     "paid": true,
-    "status": "Stable",
+    "description": "This plugin adds new combat mechanics and interface elements to the game.",
     "parameterLanguages": ["japanese", "english"],
     "compatibility": ["MZ", "MV"],
-    "categories": ["Combat", "Interface"],
-    "tags": ["combat", "mechanics", "interface"],
-    "dependencies": ["plugin-2"],
-    "authors": [
-        {
-            "name": "John Doe",
-            "url": "https://example.com/johndoe"
-        }
-    ],
-    "info": "README.md"
+    "categories": ["Combat", "Interface"]
 }

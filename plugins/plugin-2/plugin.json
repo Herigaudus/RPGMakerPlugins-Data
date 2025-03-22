@@ -1,21 +1,8 @@
 {
     "name": "Plugin Example 2",
     "paid": false,
-    "status": "Stable",
+    "description": "This plugin allows you to customize the game's interface.",
     "parameterLanguages": ["english"],
     "compatibility": ["MZ"],
-    "categories": ["Customization", "Interface"],
-    "tags": ["customization", "interface"],
-    "authors": [
-        {
-            "name": "Jane Smith",
-            "url": "https://example.com/janesmith",
-            "role": "Lead Developer"
-        },
-        {
-            "name": "Alex Johnson",
-            "url": "https://example.com/alexj"
-        }
-    ],
-    "info": "README.md"
+    "categories": ["Customization", "Interface"]
 }
