@@ -1,25 +1,20 @@
 [
   {
     "name": "Plugin Example 1",
-    "url": "https://example.com/plugin1",
-    "description": "Enhances combat mechanics.",
     "paid": true,
-    "categories": [
-      "Combat",
-      "Interface"
+    "status": "Stable",
+    "parameterLanguages": [
+      "japanese",
+      "english"
     ],
     "compatibility": [
       "MZ",
       "MV"
     ],
-    "language": [
-      "japanese",
-      "english"
+    "categories": [
+      "Combat",
+      "Interface"
     ],
-    "version": "1.0.0",
-    "author": "John Doe",
-    "authorUrl": "https://example.com/johndoe",
-    "license": "MIT",
     "tags": [
       "combat",
       "mechanics",
@@ -28,32 +23,45 @@
     "dependencies": [
       "plugin-2"
     ],
+    "authors": [
+      {
+        "name": "John Doe",
+        "url": "https://example.com/johndoe"
+      }
+    ],
+    "info": "README.md",
     "path": "plugins/plugin-1"
   },
   {
     "name": "Plugin Example 2",
-    "url": "https://example.com/plugin2",
-    "description": "Adds new character customization options.",
     "paid": false,
-    "categories": [
-      "Customization",
-      "Interface"
+    "status": "Stable",
+    "parameterLanguages": [
+      "english"
     ],
     "compatibility": [
       "MZ"
     ],
-    "language": [
-      "english"
+    "categories": [
+      "Customization",
+      "Interface"
     ],
-    "version": "1.0.0",
-    "author": "Jane Smith",
-    "authorUrl": "https://example.com/janesmith",
-    "license": "GPL-3.0",
     "tags": [
       "customization",
       "interface"
     ],
-    "dependencies": [],
+    "authors": [
+      {
+        "name": "Jane Smith",
+        "url": "https://example.com/janesmith",
+        "role": "Lead Developer"
+      },
+      {
+        "name": "Alex Johnson",
+        "url": "https://example.com/alexj"
+      }
+    ],
+    "info": "README.md",
     "path": "plugins/plugin-2"
   }
 ]
