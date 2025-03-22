@@ -56,6 +56,14 @@ A project demo is available, showcasing all the features of **Plugin Example 1**
 
 - **v1.0.0** (01/01/2025): [Download](https://example.com/plugin1/v1.0.0)
 
+## Authors
+
+- **John Doe**: [Profile](https://example.com/johndoe) (Developer)
+
+## Status
+
+This plugin is currently in **Stable** status and is ready for production use.
+
 ## License
 
 - **Name**: MIT
@@ -67,6 +75,10 @@ A project demo is available, showcasing all the features of **Plugin Example 1**
 
 ## Notes
 
+This plugin is a **paid** resource. Purchase is required for commercial use.
 
+Compatible with both RPG Maker MZ and MV.
+
+Plugin parameters are available in Japanese and English.
 
 ---

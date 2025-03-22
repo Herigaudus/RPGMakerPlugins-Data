@@ -57,6 +57,15 @@ A project demo is available, showcasing all the features of **Plugin Example 2**
 - **v0.9.0** (12/01/2024): [Download](https://example.com/plugin2/v0.9.0)
 - **v1.0.0** (01/15/2025): [Download](https://example.com/plugin2/v1.0.0)
 
+## Authors
+
+- **Jane Smith**: [Profile](https://example.com/janesmith)
+- **Alex Johnson**: [Profile](https://example.com/alexj)
+
+## Status
+
+This plugin is currently in **Stable** status and is ready for production use.
+
 ## License
 
 - **Name**: MIT
@@ -68,6 +77,10 @@ A project demo is available, showcasing all the features of **Plugin Example 2**
 
 ## Notes
 
+This plugin is a **free** resource available for both commercial and non-commercial use.
 
+Compatible with RPG Maker MZ.
+
+Plugin parameters are available in English.
 
 ---
