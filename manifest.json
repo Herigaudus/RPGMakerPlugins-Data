@@ -2,7 +2,7 @@
   {
     "name": "Plugin Example 1",
     "paid": true,
-    "status": "Stable",
+    "description": "This plugin adds new combat mechanics and interface elements to the game.",
     "parameterLanguages": [
       "japanese",
       "english"
@@ -15,27 +15,12 @@
       "Combat",
       "Interface"
     ],
-    "tags": [
-      "combat",
-      "mechanics",
-      "interface"
-    ],
-    "dependencies": [
-      "plugin-2"
-    ],
-    "authors": [
-      {
-        "name": "John Doe",
-        "url": "https://example.com/johndoe"
-      }
-    ],
-    "info": "README.md",
     "path": "plugins/plugin-1"
   },
   {
     "name": "Plugin Example 2",
     "paid": false,
-    "status": "Stable",
+    "description": "This plugin allows you to customize the game's interface.",
     "parameterLanguages": [
       "english"
     ],
@@ -46,22 +31,6 @@
       "Customization",
       "Interface"
     ],
-    "tags": [
-      "customization",
-      "interface"
-    ],
-    "authors": [
-      {
-        "name": "Jane Smith",
-        "url": "https://example.com/janesmith",
-        "role": "Lead Developer"
-      },
-      {
-        "name": "Alex Johnson",
-        "url": "https://example.com/alexj"
-      }
-    ],
-    "info": "README.md",
     "path": "plugins/plugin-2"
   }
 ]
