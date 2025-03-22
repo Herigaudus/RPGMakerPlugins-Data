@@ -1,15 +1,17 @@
 {
     "name": "Plugin Example 1",
-    "url": "https://example.com/plugin1",
-    "description": "Enhances combat mechanics.",
     "paid": true,
-    "categories": ["Combat", "Interface"],
+    "status": "Stable",
+    "parameterLanguages": ["japanese", "english"],
     "compatibility": ["MZ", "MV"],
-    "language": ["japanese", "english"],
-    "version": "1.0.0",
-    "author": "John Doe",
-    "authorUrl": "https://example.com/johndoe",
-    "license": "MIT",
+    "categories": ["Combat", "Interface"],
     "tags": ["combat", "mechanics", "interface"],
-    "dependencies": ["plugin-2"]
+    "dependencies": ["plugin-2"],
+    "authors": [
+        {
+            "name": "John Doe",
+            "url": "https://example.com/johndoe"
+        }
+    ],
+    "info": "README.md"
 }

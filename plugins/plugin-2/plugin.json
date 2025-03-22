@@ -1,15 +1,21 @@
 {
     "name": "Plugin Example 2",
-    "url": "https://example.com/plugin2",
-    "description": "Adds new character customization options.",
     "paid": false,
-    "categories": ["Customization", "Interface"],
+    "status": "Stable",
+    "parameterLanguages": ["english"],
     "compatibility": ["MZ"],
-    "language": ["english"],
-    "version": "1.0.0",
-    "author": "Jane Smith",
-    "authorUrl": "https://example.com/janesmith",
-    "license": "GPL-3.0",
+    "categories": ["Customization", "Interface"],
     "tags": ["customization", "interface"],
-    "dependencies": []
+    "authors": [
+        {
+            "name": "Jane Smith",
+            "url": "https://example.com/janesmith",
+            "role": "Lead Developer"
+        },
+        {
+            "name": "Alex Johnson",
+            "url": "https://example.com/alexj"
+        }
+    ],
+    "info": "README.md"
 }
